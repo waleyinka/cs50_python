@@ -1,4 +1,4 @@
-#[TASK 1 - DEEP THOUGHTS]
+#[DEEP THOUGHTS]
 
 #Implement a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or
 #(case-insensitively) forty-two or forty two. Otherwise output No.
@@ -14,7 +14,7 @@ match user_answer:
 
 
 
-#[TASK 2 - HOME FEDERAL SAVINGS BANK]
+#[HOME FEDERAL SAVINGS BANK]
 
 #Implement a program that prompts the user for a greeting. If the greeting starts with “hello”, output $0. If the greeting starts with an “h” (but not “hello”),
 #output $20. Otherwise, output $100. Ignore any leading whitespace in the user’s greeting, and treat the user’s greeting case-insensitively.
@@ -34,7 +34,7 @@ main()
 
 
 
-#[TASK 3 - FILE EXTENSION]
+#[FILE EXTENSION]
 
 #In a file called extensions.py, implement a program that prompts the user for the name of a file and then outputs that file’s media type if the file’s name
 #ends, case-insensitively, in any of these suffixes:
@@ -71,7 +71,7 @@ main()
 
 
 
-#[TASK 4 - MATH INTERPRETER]
+#[MATH INTERPRETER]
 
 #In a file called interpreter.py, implement a program that prompts the user for an arithmetic expression and then calculates and outputs the result as a
 #floating-point value formatted to one decimal place. Assume that the user’s input will be formatted as x y z, with one space between x and y and one space
@@ -104,7 +104,7 @@ main()
 
 
 
-#[TASK 5 - MEAL TIME]
+#[MEAL TIME]
 
 #Implement a program that prompts the user for a time and outputs whether it’s breakfast time, lunch time, or dinner time. If it’s not time for a meal, don’t
 #output anything at all. Assume that the user’s input will be formatted in 24-hour time as #:## or ##:##. And assume that each meal’s time range is inclusive.
