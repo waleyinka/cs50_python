@@ -1,4 +1,4 @@
-#[TASK 1 - CAMEL CASE]
+#[CAMEL CASE]
 
 #Implement a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case.
 #Assume that the user’s input will indeed be in camel case.
@@ -15,7 +15,7 @@ for c in camel_case:    #check if character in variable in lower the print chara
 
 
 
-#[TASK 2 - COKE MACHINE]
+#[COKE MACHINE]
 
 #Implement a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user
 #has inputted at least 50 cents, output how many cents in change the user is owed. Assume that the user will only input integers,
@@ -52,7 +52,7 @@ main()
 
 
 
-#[TASK 3 - JUST SETTING UP MY TWTTR]
+#[JUST SETTING UP MY TWTTR]
 
 #Implement a program that prompts the user for a str of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted,
 #whether inputted in uppercase or lowercase.
@@ -68,7 +68,7 @@ for i in text:
 
 
 
-#[TASK 4 - VANITY PLATE]
+#[VANITY PLATE]
 
 #Implement a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any
 #letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it
@@ -113,7 +113,7 @@ main()
 
 
 
-#[TASK 5 - NUTRITION FACTS]
+#[NUTRITION FACTS]
 
 #Implement a program that prompts consumers users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit,
 #per the FDA’s poster for fruits, which is also available as text. Capitalization aside, assume that users will input fruits exactly as written in the poster
