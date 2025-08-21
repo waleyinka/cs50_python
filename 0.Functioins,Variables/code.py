@@ -1,4 +1,4 @@
-#[TASK 1 - INDOOR VOICE]
+#[INDOOR VOICE]
 
 #Implement a program in Python that prompts the user for input and then outputs that same input in lowercase. Punctuation and whitespace should be outputted
 #unchanged. You’re welcome, but not required, to prompt the user explicitly, as by passing a str of your own as an argument to input.
@@ -9,7 +9,7 @@ print(value)
 
 
 
-#[TASK 2 - PLAYBACK SPEED]
+#[PLAYBACK SPEED]
 
 #In a file called playback.py, implement a program in Python that prompts the user for input and then outputs that same input, replacing each space with
 #... (i.e three periods).
@@ -21,7 +21,7 @@ print(rep_text)
 
 
 
-#[TASK 3 - MAKING FACES]
+#[MAKING FACES]
 
 #Implement a function called convert that accepts a str as input and returns that same input with any :) converted to 🙂 (otherwise known as a slightly
 #smiling face) and any :( converted to 🙁 (otherwise known as a slightly frowning face). All other text should be returned unchanged.
@@ -37,7 +37,7 @@ main()
 
 
 
-#[TASK 4 - EINSTEIN]
+#[EINSTEIN]
 
 #Implement a program in Python that prompts the user for mass as an integer (in kilograms) and then outputs the equivalent number of Joules as an integer.
 #Assume that the user will input an integer.
@@ -55,7 +55,7 @@ main()
 
 
 
-#[TASK 5 - TIP CALCULATOR]
+#[TIP CALCULATOR]
 
 #In the United States, it’s customary to leave a tip for your server after dining in a restaurant, typically an amount equal to 15% or more of your meal’s cost.
 
