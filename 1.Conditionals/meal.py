@@ -9,6 +9,10 @@
 # converts time, a str in 24-hour format, to the corresponding number of hours as a float. For instance,
 # given a time like "7:30" (i.e., 7 hours and 30 minutes), convert should return 7.5 (i.e., 7.5 hours).
 
+
+# ===============================================================================
+
+
 def main():
 
     user_input = input("What time is it? ").strip()

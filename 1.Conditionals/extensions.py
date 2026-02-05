@@ -12,6 +12,10 @@
 # .zip
 # If the file’s name ends with some other suffix or has no suffix at all, output application/octet-stream instead, which is a common default.
 
+
+# ===============================================================================
+
+
 def main():
 
     file_name = input("What is the name of your file? ").strip().lower()

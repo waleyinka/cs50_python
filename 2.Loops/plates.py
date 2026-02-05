@@ -4,6 +4,10 @@
 # letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it
 # does not. Assume that s will be a str. You’re welcome to implement additional functions for is_valid to call (e.g., one function per requirement)..
 
+
+# ===============================================================================
+
+
 def main():
     plate = input("Plate: ").strip() #remove spaces
     if is_valid(plate):

@@ -10,6 +10,10 @@
 # If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead prompt the user again. (It is not necessary for Y to be 4.) Be sure to catch any
 # exceptions like ValueError or ZeroDivisionError.
 
+
+# ===============================================================================
+
+
 def main():
     x, y = get_input()
     result = calculate_percentage(x, y)
