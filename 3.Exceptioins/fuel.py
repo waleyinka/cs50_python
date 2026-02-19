@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/3/fuel/
 
-
 def main():
     x, y = get_input()
     result = calculate_percentage(x, y)

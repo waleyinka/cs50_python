@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_fuel/
 
-
 def main():
     while True:
         try:

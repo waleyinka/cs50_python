@@ -1,6 +1,5 @@
 # Task https://cs50.harvard.edu/python/psets/3/taqueria/
 
-
 menu = {
     "Baja Taco": 4.25,
     "Burrito": 7.50,

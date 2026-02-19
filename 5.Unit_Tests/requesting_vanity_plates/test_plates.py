@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_plates/
 
-
 from plates import is_valid
 
 def test_length():

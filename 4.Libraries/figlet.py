@@ -1,10 +1,8 @@
 # Task: https://cs50.harvard.edu/python/psets/4/figlet/
 
-
 from pyfiglet import Figlet
 import sys
 import random
-
 
 def main():
        # Create an instance of the Figlet class.
@@ -53,7 +51,6 @@ def main():
 
        # Output the rendered ASCII art to the terminal.
        print(rendered_text)
-
 
 if __name__ == "__main__":
     main()

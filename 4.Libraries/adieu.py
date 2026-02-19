@@ -3,7 +3,6 @@
 # Import the inflect library for proper grammatical joins (e.g., commas and 'and')
 import inflect
 
-
 def main():
     # Create an inflect engine instance to handle pluralization and list joining
     p = inflect.engine()
@@ -37,8 +36,5 @@ def main():
     # Print the farewell message using the formatted list of names
     print(f"Adieu, adieu, to {output}")
 
-
-# Ensure main() runs only when this file is executed directly,
-# not when it is imported as a module
 if __name__ == "__main__":
       main()

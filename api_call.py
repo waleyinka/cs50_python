@@ -1,6 +1,5 @@
 # https://cs50.harvard.edu/python/shorts/api_calls/
 
-
 import sys
 import requests
 

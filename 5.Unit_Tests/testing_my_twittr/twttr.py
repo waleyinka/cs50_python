@@ -1,11 +1,9 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_twttr/
 
-
 def main():
     # Prompt the user for input and shorten the string
     text = shorten(input("Enter your string here: "))
     print(text)
-
 
 def shorten(word):
     # List to collect non-vowel characters
@@ -27,7 +25,6 @@ def shorten(word):
     output = "".join(result)
 
     return output
-
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/1/interpreter/
 
-
 def main():
 
     expression = input("Enter your arithmetic expression: ")

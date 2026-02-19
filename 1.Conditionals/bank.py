@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/1/bank/
 
-
 def main():
     greeting = input("Enter your greeting here: ").strip().lower()
 

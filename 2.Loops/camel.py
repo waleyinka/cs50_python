@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/2/camel/
 
-
 # accept camelCase input from users
 camel_case = input("Enter you came case variable here: ")
 

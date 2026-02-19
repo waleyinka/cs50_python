@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/1/extensions/
 
-
 def main():
 
     file_name = input("What is the name of your file? ").strip().lower()

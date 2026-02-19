@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/4/bitcoin/
 
-
 import sys
 import requests
 
@@ -50,7 +49,5 @@ def main():
     # Output the cost formatted as USD with commas and four decimal places
     print(f"${total_cost:,.4f}")
 
-
-# Entry point guard to allow safe imports without execution
 if __name__ == "__main__":
     main()

@@ -1,8 +1,6 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_twttr/
 
-
 from twttr import shorten
-
 
 def test_shorten():
     assert shorten("banana") == "bnn"

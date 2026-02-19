@@ -33,7 +33,6 @@ def main():
     except FileNotFoundError:
         sys.exit("Input does not exist")
 
-
     fitted = ImageOps.fit(photo, shirt_size)
     fitted.paste(shirt_image, (0, 0), shirt_image)
     fitted.save(output_path)

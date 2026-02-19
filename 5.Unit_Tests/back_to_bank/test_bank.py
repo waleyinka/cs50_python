@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_bank/
 
-
 from bank import value
 
 def test_hello():

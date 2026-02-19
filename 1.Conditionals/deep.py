@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/1/deep/
 
-
 user_answer = input("The Answer to the Great Question of Life is? ").strip().lower()
 
 match user_answer:

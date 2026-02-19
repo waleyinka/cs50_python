@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/5/back_to_bank/
 
-
 def main():
     # Prompt the user for a greeting, normalizing whitespace and casing early
     greeting = input("Enter your greeting here: ").strip().lower()

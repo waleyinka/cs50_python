@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/1/meal/
 
-
 def main():
 
     user_input = input("What time is it? ").strip()

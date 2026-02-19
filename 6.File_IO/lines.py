@@ -29,7 +29,6 @@ def main():
     
     print(loc)
     
-    
 def count_lines(file):
     """Return number of lines of actual code.
 
@@ -65,9 +64,5 @@ def count_lines(file):
     
     return line_count
     
-
 if __name__ == "__main__":
     main()
-        
-        
-

@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/4/professor/
 
-
 import random
 
 def main():
@@ -81,7 +80,6 @@ def generate_integer(level):
         return random.randint(100, 999)
 
     raise ValueError("Invalid level")
-
 
 if __name__ == "__main__":
     main()

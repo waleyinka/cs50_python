@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/2/plates/
 
-
 def main():
     plate = input("Plate: ").strip() #remove spaces
     if is_valid(plate):

@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/5/test_plates/
 
-
 import sys
 
 def main():

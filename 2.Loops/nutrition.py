@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/2/nutrition/
 
-
 fruits = {
     "Apple" : 130,
     "Avocado" : 50,

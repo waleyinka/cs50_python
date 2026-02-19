@@ -1,6 +1,5 @@
 # Task: https://cs50.harvard.edu/python/psets/4/game/
 
-
 # import the random module to generate random numbers
 import random 
 
