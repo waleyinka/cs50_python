@@ -1,11 +1,4 @@
-# VANITY PLATE
-
-# Implement a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any
-# letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it
-# does not. Assume that s will be a str. You’re welcome to implement additional functions for is_valid to call (e.g., one function per requirement)..
-
-
-# ===============================================================================
+# Task: https://cs50.harvard.edu/python/psets/2/plates/
 
 
 def main():
@@ -14,7 +7,6 @@ def main():
         print("Valid")
     else:
         print("Invalid")
-
 
 def is_valid(s):
 
@@ -41,4 +33,5 @@ def is_valid(s):
 
     return True
 
-main()
+if __name__ == "__main__":
+    main()

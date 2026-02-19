@@ -1,5 +1,7 @@
-from plates import is_valid
+# Task: https://cs50.harvard.edu/python/psets/5/test_plates/
 
+
+from plates import is_valid
 
 def test_length():
     # Too short and too long
@@ -10,20 +12,17 @@ def test_length():
     assert is_valid("AB") is True
     assert is_valid("ABCDEF") is True
 
-
 def test_starting_letters():
     # Must begin with two letters
     assert is_valid("1A") is False
     assert is_valid("A1") is False
     assert is_valid("AB") is True
 
-
 def test_only_alphanumeric():
     # No spaces or punctuation
     assert is_valid("AB CD") is False
     assert is_valid("AB.CD") is False
     assert is_valid("AB123") is True
-
 
 def test_number_rules():
     # Numbers, if present, must be at the end

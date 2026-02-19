@@ -1,11 +1,4 @@
-# Back to the Bank
-
-# Reimplement Home Federal Savings Bank from Problem Set 1, restructuring your code per the below, wherein value expects a str as input and returns an int,
-# namely 0 if that str starts with “hello”, 20 if that str starts with an “h” (but not “hello”), or 100 otherwise, treating the str case-insensitively. You can assume that the
-# string passed to the value function will not contain any leading spaces. Only main should call print.
-
-
-# ===============================================================================
+# Task: https://cs50.harvard.edu/python/psets/5/back_to_bank/
 
 
 def main():
@@ -18,7 +11,6 @@ def main():
     # Output the result
     print(amount)
 
-
 def value(greeting: str) -> int:
     """
     Returns a monetary value based on the greeting:
@@ -26,7 +18,6 @@ def value(greeting: str) -> int:
     - $20 if the greeting starts with 'h' (but not 'hello')
     - $100 otherwise
     """
-
     # Normalize input to ensure consistent comparisons
     greeting = greeting.lower()
 
@@ -41,7 +32,6 @@ def value(greeting: str) -> int:
     # Default case for all other greetings
     else:
         return 100
-
 
 if __name__ == "__main__":
     main()

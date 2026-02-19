@@ -1,3 +1,6 @@
+# Task: https://cs50.harvard.edu/python/psets/5/test_fuel/
+
+
 def main():
     while True:
         try:
@@ -11,7 +14,6 @@ def main():
         except (ValueError, ZeroDivisionError):
             # Any invalid fraction input should just re-prompt the user
             continue
-
 
 def convert(fraction: str) -> int:
     """Convert a fraction string into a whole-number percentage.
@@ -48,7 +50,6 @@ def convert(fraction: str) -> int:
     # Convert to percentage and round to nearest whole number
     return round((x / y) * 100)
 
-
 def gauge(percentage: int) -> str:
     """Convert a percentage into a fuel gauge reading.
 
@@ -68,7 +69,6 @@ def gauge(percentage: int) -> str:
         return "F"
 
     return f"{percentage}%"
-
 
 if __name__ == "__main__":
     main()

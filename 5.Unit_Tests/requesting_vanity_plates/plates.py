@@ -1,12 +1,13 @@
-import sys
+# Task: https://cs50.harvard.edu/python/psets/5/test_plates/
 
+
+import sys
 
 def main():
     # Read plate, remove leading/trailing whitespace
     plate = input("Plate: ").strip()
 
     print("Valid" if is_valid(plate) else "Invalid")
-
 
 def is_valid(s: str) -> bool:
     # Rule 1: length must be between 2 and 6 inclusive
@@ -39,7 +40,6 @@ def is_valid(s: str) -> bool:
                 return False
 
     return True
-
 
 if __name__ == "__main__":
     main()

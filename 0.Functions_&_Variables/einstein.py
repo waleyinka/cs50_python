@@ -1,7 +1,5 @@
-# EINSTEIN
+# Task: https://cs50.harvard.edu/python/psets/0/einstein/
 
-# Implement a program in Python that prompts the user for mass as an integer (in kilograms) and then
-# outputs the equivalent number of Joules as an integer. Assume that the user will input an integer.
 
 def main():
     m = int(input("What's the mass of the object? "))
@@ -12,4 +10,5 @@ def main():
 def square(n):
     return pow(n, 2)
 
-main()
+if __name__ == "__main__":
+    main()

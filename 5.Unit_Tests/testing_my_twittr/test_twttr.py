@@ -1,12 +1,4 @@
-# Testing my twttr - 2
-
-# Implement one or more functions that collectively test your implementation of shorten thoroughly,
-# each of whose names should begin with test_ so that you can execute your tests with:
-
-# pytest test_twttr.py
-
-
-# ===============================================================================
+# Task: https://cs50.harvard.edu/python/psets/5/test_twttr/
 
 
 from twttr import shorten

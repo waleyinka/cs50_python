@@ -1,7 +1,5 @@
-# TIP CALCULATOR
+# Task: https://cs50.harvard.edu/python/psets/0/tip/
 
-# In the United States, it’s customary to leave a tip for your server after dining in a restaurant,
-# typically an amount equal to 15% or more of your meal’s cost.
 
 def main():
     dollars = dollars_to_float(input("How much was the meal? "))

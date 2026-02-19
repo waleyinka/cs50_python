@@ -1,6 +1,8 @@
+# https://cs50.harvard.edu/python/shorts/api_calls/
+
+
 import sys
 import requests
-
 
 def main():
     print("Search the Art Institute of Chicago!")
@@ -19,5 +21,5 @@ def main():
     for artwork in content["data"]:
         print(f"* {artwork['title']}")
 
-
-main()
+if __name__ == "__main__":
+    main()
