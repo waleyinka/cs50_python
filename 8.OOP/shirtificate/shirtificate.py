@@ -5,16 +5,19 @@ from fpdf import FPDF
 
 class Shirtificate(FPDF):
     def header(self):
+        """Override the header method to customize the PDF header."""
         self.set_font("helvetica", "B", 44)
         self.cell(0, 60, "CS50 Shirtificate", align="C", new_x="LMARGIN", new_y="NEXT")
 
 
 def main():
+    """Main function to prompt the user for their name and generate a shirtificate PDF."""
     name = input("Name: ").strip()
     make_shirtificate(name, "shirtificate.pdf")
 
 
 def make_shirtificate(name, filename):
+    """Generate a shirtificate PDF with the given name and save it to the specified filename."""
     pdf = Shirtificate(orientation="P", format="A4")
     pdf.set_auto_page_break(auto=False)
     pdf.add_page()

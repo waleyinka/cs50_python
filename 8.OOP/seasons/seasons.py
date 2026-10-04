@@ -6,6 +6,7 @@ import inflect
 
 
 def get_birth_date():
+    """Prompt the user for their date of birth and return it as a date object."""
     date_of_birth = input("Please enter your date of birth..... ")
 
     try:
@@ -15,12 +16,14 @@ def get_birth_date():
 
 
 def calculate_minutes(diff):
+    """Calculate the total number of minutes in the given timedelta object."""
     minutes = diff.days * 24 * 60
 
     return minutes
 
 
 def minutes_to_words(minutes):
+    """Convert a number of minutes into words using the inflect library."""
     engine = inflect.engine()
 
     words = engine.number_to_words(minutes)
@@ -30,6 +33,7 @@ def minutes_to_words(minutes):
 
 
 def main():
+    """Main function to calculate and display the number of minutes since the user's birth date in words."""
     birth_date = get_birth_date()
     today = date.today()
 
